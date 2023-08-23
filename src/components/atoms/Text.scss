@@ -1,0 +1,80 @@
+@import '../../variables.scss';
+
+.container-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        text-decoration: none;
+    }
+
+    span.xxl {
+        font-size: 2.3rem;
+    }
+
+    span.xl {
+        font-size: 1.75rem;
+    }
+
+    span.l {
+        font-size: 1.5rem;
+    }
+
+    span.m {
+        font-size: 1.25rem;
+    }
+
+    span.s {
+        font-size: 1.125rem;
+    }
+
+    span.regular {
+        font-weight: 400;
+    }
+
+    span.medium {
+        font-weight: 500;
+    }
+
+    span.bold {
+        font-weight: 600;
+    }
+
+    span.semibold {
+        font-weight: 700;
+    }
+
+    span.font-g {
+        font-family: "Geogrotesque", sans-serif;
+    }
+
+    span.font-f {
+        font-family: "Formular", sans-serif;
+    }
+
+    span.font-t {
+        font-family: "TYPOGRAPH", sans-serif;
+    }
+
+    span.left {
+        text-align: left;
+    }
+
+    span.center {
+        text-align: center;
+    }
+
+    span.darkblue {
+        color: $color_text_darkblue;
+    }
+
+    span.list-color {
+        color: $color_text_list_darkblue;
+    }
+
+    span.white {
+        color: white;
+    }
+
+}

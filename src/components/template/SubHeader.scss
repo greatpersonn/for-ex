@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+.container-subheader {
+    width: 100%;
+
+    background-image: url('../../assets/img/back-subheader.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .subheader-wrapper {
+        width: 100%;
+
+        padding: 130px 0px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background: linear-gradient(180deg, #FFF 0%, rgba(233, 246, 251, 0.56) 15.90%, rgba(255, 255, 255, 0.00) 100%);
+
+        svg {
+            padding: 0px 0px 15px 0px;
+        }
+    }
+}

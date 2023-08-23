@@ -1,0 +1,30 @@
+@import '../../variables.scss';
+
+.container-button {
+    button {
+        border-radius: 45px;
+        border: 3px solid $color_white;
+        box-sizing: border-box;
+        background: linear-gradient(176deg, $color_gradient_green 0%, $color_gradient_blue 100%);
+        backdrop-filter: blur(7px);
+
+        color: $color_white;
+        text-align: center;
+        font-family: "Geogrotesque-SemiBold", sans-serif;
+        font-size: 1.7rem;
+        text-transform: uppercase;
+    }
+
+    button.medium {
+        padding: 18px 42px;
+    }
+
+    button.large {
+        padding: 18px 100px;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background: linear-gradient(176deg, $color_gradient_green_hover 0%, $color_gradient_blue_hover 100%);
+    }
+}

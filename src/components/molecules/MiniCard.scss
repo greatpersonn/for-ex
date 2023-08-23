@@ -1,0 +1,38 @@
+@import '../../variables.scss';
+
+.container-gradient {
+    max-width: 500px;
+
+    margin: 15px;
+    border-radius: 25px;
+    opacity: 0.82;
+    position: relative;
+    background: linear-gradient(to right, $color_gradient_green, $color_gradient_blue);
+    padding: 0.3rem;
+
+    .container-minicard {
+        width: 340px;
+
+        border-radius: 22px;
+        background: white;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+
+        svg {
+            width: 66px;
+            height: 66px;
+        }
+    }
+    
+    .large {
+        padding: 35px 50px;
+    }
+
+    .medium {
+        padding: 32px 30px;
+    }
+}

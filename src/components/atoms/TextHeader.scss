@@ -1,0 +1,60 @@
+@import '../../variables.scss';
+
+.container-text_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        max-width: 900px;
+        text-transform: uppercase;
+    }
+
+    span.m {
+        font-size: 3.2rem;
+    }
+
+    span.regular {
+        font-weight: 400;
+    }
+
+    span.medium {
+        font-weight: 500;
+    }
+
+    span.bold {
+        font-weight: 600;
+    }
+
+    span.semibold {
+        font-weight: 700;
+    }
+
+    span.font-g {
+        font-family: "Geogrotesque", sans-serif;
+    }
+
+    span.font-f {
+        font-family: "Formular", sans-serif;
+    }
+
+    span.left {
+        text-align: left;
+    }
+
+    span.center {
+        text-align: center;
+    }
+
+    span.white-header {
+        color: $color_textheader_white;
+    }
+
+    span.blue-header {
+        color: $color_textheader_blue;
+    }
+
+    span.darkblue-header {
+        color: $color_textheader_darkblue;
+    }
+}

@@ -1,0 +1,36 @@
+@import './variables.scss';
+
+@font-face {
+    font-family: 'DrukCyr-Medium';
+    src: url('./assets/fonts/DrukCyr-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Geogrotesque';
+    src: url('./assets/fonts/GeogrotesqueCyr-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Geogrotesque-Bold';
+    src: url('./assets/fonts/GeogrotesqueCyr-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Geogrotesque-SemiBold';
+    src: url('./assets/fonts/GeogrotesqueCyr-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TYPOGRAPH';
+    src: url('./assets/fonts/TYPOGRAPH PRO Light.ttf') format('truetype');
+}
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

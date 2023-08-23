@@ -1,0 +1,40 @@
+@import '../../variables.scss';
+
+.container-sidebutton {
+    width: 210px;
+    padding: 15px 0px;
+    margin: 215px 0px 0px;
+
+    border-radius: 100px 0% 0% 100px;
+    background: linear-gradient(156deg, $color_gradient_button_green 0%, $color_gradient_button_blue 100%);
+
+    transition: all 0.25s ease;
+
+    button {
+        width: 135px;
+        height: 135px;
+
+        margin: 0px 15px;
+
+        border: 3px solid $color_white;
+        background: radial-gradient(139.66% 138.18% at 107.11% 22.34%, $color_gradient_button_darkgreen 7.55%, $color_gradient_button_darkblue 90.54%);
+        border-radius: 100%;
+        box-shadow: 0px 2px 9px 3px rgba(0, 0, 0, 0.75);
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &:hover {
+        width: 245px;
+
+        button {
+            cursor: pointer;
+        }
+
+        transition: all 0.3s ease;
+    }
+}

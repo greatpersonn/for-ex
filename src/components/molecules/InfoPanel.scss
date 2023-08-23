@@ -1,0 +1,9 @@
+@import '../../variables.scss';
+
+.container-infopanel {
+    max-width: 1120px;
+    padding: 30px 38px;
+    border-radius: 45px;
+    background: rgba(9, 51, 82, 0.80);
+    backdrop-filter: blur(7px);
+}

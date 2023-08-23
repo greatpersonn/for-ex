@@ -1,0 +1,48 @@
+@import '../../variables.scss';
+
+.container-course {
+    position: relative;
+    width: 100%;
+
+    padding: 80px 0px 0px;
+
+    background-image: url('../../assets/img/worldmap.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+
+    .container-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .course-spot_blue {
+        width: 300px;
+        height: 300px;
+
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+
+        background: $color_blue_spot;
+        opacity: 0.7;
+        filter: blur(170px);
+    }
+
+    .course-spot_green {
+        width: 300px;
+        height: 300px;
+
+        position: absolute;
+        z-index: -1;
+        top: 200px;
+        left: 800px;
+
+        background: $color_green_spot;
+        opacity: 0.7;
+        filter: blur(150px);
+    }
+}
