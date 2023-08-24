@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4df7900f.css",
+    "main.js": "/static/js/main.44e6e57d.js",
+    "static/media/back-subheader.png": "/static/media/back-subheader.8bbd2fb284c8f4e6d0f2.png",
+    "static/media/header.png": "/static/media/header.0e7290d0fd9584c9ab0d.png",
+    "static/media/profile.png": "/static/media/profile.abe6a3bbd17651888c6e.png",
+    "static/media/trader.png": "/static/media/trader.35c5b3177769d7cd0037.png",
+    "static/media/worldmap.png": "/static/media/worldmap.ae83e810327ff4599f96.png",
+    "static/media/DrukCyr-Medium.ttf": "/static/media/DrukCyr-Medium.8d002b52be6529b27cc2.ttf",
+    "static/media/GeogrotesqueCyr-SemiBold.ttf": "/static/media/GeogrotesqueCyr-SemiBold.5e2f237c1c64879a3a85.ttf",
+    "static/media/GeogrotesqueCyr-Bold.ttf": "/static/media/GeogrotesqueCyr-Bold.1bbb0c8c4ed2a4f9ba21.ttf",
+    "static/media/GeogrotesqueCyr-Regular.ttf": "/static/media/GeogrotesqueCyr-Regular.7fc366bf05b9da5e3c94.ttf",
+    "static/media/avatar.png": "/static/media/avatar.2ffea478fab91acf9681.png",
+    "static/media/Formular.ttf": "/static/media/Formular.6d3c9849d2a874207220.ttf",
+    "static/media/TYPOGRAPH PRO Light.ttf": "/static/media/TYPOGRAPH PRO Light.3560508b78def84c8cf7.ttf",
+    "static/media/client_03.png": "/static/media/client_03.fd446650504279308ae4.png",
+    "static/media/client_01.png": "/static/media/client_01.be2ee3da35a39a79a84f.png",
+    "static/media/arrow.svg": "/static/media/arrow.dcf89c795ea6515aef4a9c7c78e86cc3.svg",
+    "static/media/icon_travelling.svg": "/static/media/icon_travelling.8c0f133d299c398ac5ea00396bab47c5.svg",
+    "static/media/icon_car.svg": "/static/media/icon_car.730a078c66ebdfddeddb821d13b4c495.svg",
+    "static/media/icon_profit.svg": "/static/media/icon_profit.d188a54a40ac0f477a11bad11960bbc1.svg",
+    "static/media/icon_flat.svg": "/static/media/icon_flat.f44fe6fae279d61cd174885f3d6b93c3.svg",
+    "static/media/arrow_to_bottom.svg": "/static/media/arrow_to_bottom.1f389715f696454f474feddde6f8bf0f.svg",
+    "index.html": "/index.html",
+    "main.4df7900f.css.map": "/static/css/main.4df7900f.css.map",
+    "main.44e6e57d.js.map": "/static/js/main.44e6e57d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4df7900f.css",
+    "static/js/main.44e6e57d.js"
+  ]
+}
