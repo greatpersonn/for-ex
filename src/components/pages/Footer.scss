@@ -1,0 +1,99 @@
+footer {
+    width: 100%;
+    position: relative;
+
+    .red-spot {
+        position: absolute;
+        top: 320px;
+        left: 330px;
+        z-index: -1;
+
+        width: 400px;
+        height: 600px;
+        transform: rotateZ(-45deg);
+        filter: blur(180px);
+        
+        background: rgba(234, 80, 80, 1);
+    }
+
+    .green-spot {
+        position: absolute;
+        top: 250px;
+        left: 1400px;
+        z-index: -1;
+
+        width: 400px;
+        height: 600px;
+        transform: rotateZ(45deg);
+        filter: blur(180px);
+        
+        background: rgba(11, 193, 98, 1);
+    }
+
+
+    .container-footer {
+        padding: 100px 0px 150px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .container-text_header {
+            max-width: 750px;
+        }
+
+        .footer-cards {
+            margin: 70px 0px 150px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            gap: 115px;
+
+            .container-text_header {
+                max-width: none;
+            }
+
+            .card {
+                width: 360px;
+                height: 600px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 60px;
+
+                .container-text {
+                    width: 300px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                }
+
+                .card-content {
+                    width: 290px;
+                }
+            }
+
+            .left {
+                border-radius: 44px;
+                border: 3px solid #F91A23;
+                background: rgba(255, 255, 255, 0.60);
+                backdrop-filter: blur(25.5px);
+                box-sizing: border-box;
+            }
+
+            .right {
+                border-radius: 44px;
+                border: 3px solid #0BC162;
+                background: rgba(255, 255, 255, 0.60);
+                backdrop-filter: blur(25.5px);
+                box-sizing: border-box;
+            }
+        }
+    }
+}
