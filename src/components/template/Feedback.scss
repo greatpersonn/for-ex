@@ -1,0 +1,142 @@
+@import '../../variables.scss';
+
+.container-feedback {
+    padding: 80px 0px;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: $color_background_feedback;
+    
+    .container-text_header {
+        max-width: 500px;
+    }
+
+    .container-client_feedback {
+        max-width: 700px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 10px;
+
+        transform: translateX(-250px);
+
+        .wrapper-avatar {
+            width: 90px;
+            height: 90px;
+            transform: translateY(5px);
+        }
+
+        .wrapper {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+
+            .message {
+                max-width: 500px;
+
+                border-radius: 35px 35px 35px 0px;
+                padding: 30px 40px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                background-color: $color_client_feedback;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    z-index: -0;
+                    bottom: 0;
+                    left: -7px;
+                    height: 20px;
+                    width: 20px;
+                    background: $color_client_feedback;
+                    border-bottom-right-radius: 0px;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    z-index: 1;
+                    bottom: 0;
+                    left: -10px;
+                    width: 10px;
+                    height: 20px;
+                    background: $color_background_bubble;
+                    border-bottom-right-radius: 10px;
+                }
+            }
+        }
+
+    }
+
+    .container-author_feedback {
+        max-width: 700px;
+        margin: 0px 0px 55px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 10px;
+
+        transform: translateX(250px);
+
+        .wrapper-avatar {
+            width: 90px;
+            height: 90px;
+            transform: translateY(5px);
+        }
+
+        .wrapper {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+
+            .message {
+                max-width: 500px;
+
+                border-radius: 35px 35px 0px 35px;
+                padding: 30px 40px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                background: $color_author_feedback;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    z-index: 0;
+                    bottom: 0;
+                    right: -8px;
+                    height: 20px;
+                    width: 20px;
+                    background: $color_author_feedback;
+                    border-bottom-left-radius: 15px;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    z-index: 1;
+                    bottom: 0;
+                    right: -10px;
+                    width: 10px;
+                    height: 20px;
+                    background: $color_background_bubble;
+                    border-bottom-left-radius: 10px;
+                }
+            }
+        }
+    }
+}
