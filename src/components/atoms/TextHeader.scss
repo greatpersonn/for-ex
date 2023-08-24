@@ -10,8 +10,24 @@
         text-transform: uppercase;
     }
 
+    span.l {
+        font-size: 3.5rem;
+    }
+
     span.m {
         font-size: 3.2rem;
+    }
+
+    span.s {
+        font-size: 1.55rem;
+    }
+
+    span.ss {
+        font-size: 1.3rem;
+    }
+
+    span.sss {
+        font-size: 0.75rem;
     }
 
     span.regular {
@@ -38,6 +54,10 @@
         font-family: "Formular", sans-serif;
     }
 
+    span.italic {
+        font-style: italic;
+    }
+
     span.left {
         text-align: left;
     }
@@ -56,5 +76,13 @@
 
     span.darkblue-header {
         color: $color_textheader_darkblue;
+    }
+
+    span.red-header {
+        color: $color_textheader_red;
+    }
+
+    span.green-header {
+        color: $color_textheader_green;
     }
 }

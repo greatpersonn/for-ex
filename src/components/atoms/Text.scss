@@ -9,6 +9,10 @@
         text-decoration: none;
     }
 
+    span.xxxl {
+        font-size: 3.75rem;
+    }
+
     span.xxl {
         font-size: 2.3rem;
     }
@@ -79,6 +83,14 @@
 
     span.grey {
         color: $color_text_grey;
+    }
+
+    span.red {
+        color: $color_text_red;
+    }
+
+    span.green {
+        color: $color_text_green;
     }
 
     span.white {
