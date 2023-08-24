@@ -1,4 +1,6 @@
+import About from "../template/About";
 import Course from "../template/Course";
+import Feedback from "../template/Feedback";
 import SubHeader from "../template/SubHeader";
 
 const Main = () => {
@@ -7,6 +9,8 @@ const Main = () => {
             <div className="container-main">
                 <SubHeader />
                 <Course />
+                <About />
+                <Feedback />
             </div>
         </main>
     );
