@@ -1,0 +1,121 @@
+@import '../../variables.scss';
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .form-wrapper {
+        border-radius: 34px;
+        border: 2px solid #2563EB;
+        background: rgba(16, 90, 255, 0.73);
+        backdrop-filter: blur(5.5px);
+
+        width: 1005px;
+        padding: 50px 40px;
+
+        background-image: url('../../assets/img/worldmap.png');
+        background-repeat: no-repeat;
+        background-size: 70%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .container-text_header {
+            max-width: 400px;
+        }
+
+        .form-avatar {
+            width: 360px;
+            height: 360px;
+
+            border-radius: 100%;
+            background-image: url('../../assets/img/avatar.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            transform: translateX(-90px);
+        }
+
+        .form-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+            
+            .container-button {
+                transform: translateX(100px);
+            }
+
+            .content-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: flex-start;
+
+
+                .content-field {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+
+                    .field-number {
+                        position: relative;
+
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+
+                        label {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+
+                            border-radius: 9px;
+                            background: rgba(148, 154, 175, 1);
+
+                            padding: 10px;
+                            transform: translateX(-205px);
+                        }
+
+                        input {
+                            display: inline-block;
+
+                            width: 220px;
+                            padding: 13px 0px 13px 40px;
+
+                            outline: none;
+                            transform: translateX(85px);
+
+                            border-radius: 10px;
+                            border: 1px solid #0097F0;
+                            background: #FFF;
+                            box-sizing: border-box;
+
+                            color: #036;
+                            font-size: 0.95rem;
+                            font-weight: 300;
+
+                            &::placeholder {
+                                color: #036;
+                                font-weight: 700;
+                                font-size: 0.95rem;
+                                font-family: 'TYPOGRAPH', sans-serif;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+.container-input {
+    input {
+        width: 290px;
+        padding: 13px 15px;
+
+        outline: none;
+
+        border-radius: 10px;
+        border: 1px solid #0097F0;
+        background: #FFF;
+        box-sizing: border-box;
+
+        color: #036;
+        font-size: 0.95rem;
+        font-weight: 300;
+
+        &::placeholder {
+            color: #036;
+            font-weight: 300;
+            font-size: 0.95rem;
+            font-family: 'TYPOGRAPH', sans-serif;
+        }
+    }
+}
