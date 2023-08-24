@@ -1,13 +1,14 @@
-import './App.scss';
-import Button from './components/atoms/Button';
-import Text from './components/atoms/Text';
-import InfoPanel from './components/molecules/InfoPanel';
-import MiniCard from './components/molecules/MiniCard';
 import Main from './components/pages/Main';
+import Footer from './components/pages/Footer';
+
+import './App.scss';
 
 const App = () => {
   return (
-    <Main />
+    <>
+      <Main />
+      <Footer />
+    </>
   );
 }
 

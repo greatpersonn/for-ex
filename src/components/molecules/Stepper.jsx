@@ -12,11 +12,11 @@ const Stepper = ({ content }) => {
                         <div className='wrapper-ui_step'>
                             <div className="stepper-dotted_wrapper">
                                 <div className={`stepper_content ${step.state}`}>
-                                    <Text styles={step.state == "active" ? "s semibold font-g center white" : "s semibold font-g center darkblue"}>{step.header}</Text>
+                                    <Text styles={step.state === "active" ? "s semibold font-g center white" : "s semibold font-g center darkblue"}>{step.header}</Text>
                                 </div>
                             </div>
                             {
-                                1 != content.length - id &&
+                                1 !== content.length - id &&
                                 <Arrow />
                             }
                         </div>

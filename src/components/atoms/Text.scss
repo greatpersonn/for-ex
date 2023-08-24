@@ -69,12 +69,24 @@
         color: $color_text_darkblue;
     }
 
+    span.darkblue_02 {
+        color: $color_text_darkblue_02;
+    }
+
     span.list-color {
         color: $color_text_list_darkblue;
     }
 
+    span.grey {
+        color: $color_text_grey;
+    }
+
     span.white {
         color: white;
+    }
+
+    span.line-height-125 {
+        line-height: 125%;
     }
 
 }
